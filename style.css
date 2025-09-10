@@ -64,6 +64,28 @@ nav ul {
 .atouts-list li:hover {
   transform: scale(1.02);
 }
+.portrait {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(249, 168, 37, 0.6); /* halo orangé */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.portrait:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 193, 7, 0.8);
+}
+.photo-wrapper {
+  background: linear-gradient(135deg, #f9a825, #ffb300);
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.photo-caption {
+  font-style: italic;
+  color: #555;
+  margin-top: 0.5rem;
+  text-align: center;
+}
 
 
 .portrait {
