@@ -20,6 +20,34 @@ nav ul {
   justify-content: center;
   gap: 2rem;
 }
+.timeline {
+  list-style: none;
+  padding-left: 0;
+}
+.timeline li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 3px solid #f9a825;
+  position: relative;
+}
+.timeline li::before {
+  content: "🎓";
+  position: absolute;
+  left: -1.5rem;
+  top: 0;
+}
+.experiences-list {
+  list-style: none;
+  padding-left: 0;
+}
+.experiences-list li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background: #f0f0f0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
 
 .portrait {
   width: 150px;
