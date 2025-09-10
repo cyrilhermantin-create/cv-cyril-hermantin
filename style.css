@@ -21,6 +21,74 @@ nav ul {
   gap: 2rem;
 }
 
+.portrait {
+  width: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.portrait:hover {
+  transform: scale(1.05) rotate(-2deg);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.portrait {
+  width: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.portrait:hover {
+  transform: scale(1.05) rotate(-2deg);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.projet {
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.projet:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+}
+#contact p {
+  display: block;
+  color: #333;
+}
+#contact a[href^="tel:"] {
+  font-weight: bold;
+  color: #004466;
+  text-decoration: none;
+}
+#contact a[href^="tel:"]:hover {
+  text-decoration: underline;
+}
+.call-button {
+  display: inline-block;
+  background-color: #f9a825;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.call-button:hover {
+  background-color: #ffb300;
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  .call-button {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+
 nav a {
   color: white;
   text-decoration: none;
