@@ -177,6 +177,12 @@ nav ul {
     max-width: 90%;
     padding: 1rem;
   }
+@media (max-width: 768px) {
+  .galerie img {
+    max-width: 90%;
+  }
+}
+
 
   .portrait {
     width: 120px;
@@ -452,5 +458,25 @@ form button {
 
 form button:hover {
   background-color: #004d40;
+}
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.galerie img {
+  width: 100%;
+  max-width: 300px; /* Limite la largeur */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.galerie img:hover {
+  transform: scale(1.05);
 }
 
