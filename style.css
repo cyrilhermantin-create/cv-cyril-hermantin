@@ -185,6 +185,12 @@ nav ul {
     width: 80%;
   }
 }
+.portrait {
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
 
 
   .portrait {
